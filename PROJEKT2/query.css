@@ -1,0 +1,33 @@
+@media (max-width: 800px) {
+  header {
+    position: relative;
+  }
+
+  header nav {
+    display: none;
+    position: absolute;
+    top: 4rem;
+    background-color: #321038;
+    width: 100%;
+  }
+
+  .menu-icon {
+    display: block;
+    color: #ffffff;
+    font-size: 1.6rem;
+    margin-right: 1.25rem;
+  }
+
+  nav li {
+    display: block;
+    text-align: center;
+    margin: 0.8rem 0;
+    padding-top: 0.5rem;
+    border-top: 1px dashed #cccccc;
+  }
+
+  h1,
+  article {
+    margin: 1rem;
+  }
+}
